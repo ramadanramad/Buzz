@@ -305,6 +305,15 @@ section {
     transform: scale(0.95); /* Slightly shrink on click */
 }
 
+.home-text h1, .home-text .lorem-text, .home-image, .read-button {
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+.visible {
+    opacity: 1;
+}
+
 /*services*/
 .Services {
     display: flex;            
